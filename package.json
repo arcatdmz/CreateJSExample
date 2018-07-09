@@ -1,0 +1,16 @@
+{
+  "name": "CreateJSExample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:arcatdmz/CreateJSExample.git",
+  "author": "Jun Kato <i@junkato.jp>",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build index.html",
+    "develop": "parcel index.html"
+  },
+  "dependencies": {
+    "@createjs/easeljs": "^2.0.0-beta.2",
+    "parcel-bundler": "^1.9.4"
+  }
+}
